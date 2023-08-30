@@ -2,7 +2,7 @@ body {
     background:pink;
     color: rgb(45, 45, 45);
     padding: 10px;
-    font-family:'Times New Roman', Times, serif;
+    font-family:cursive;
 }
 #all-contents {
   max-width: 800px;
@@ -33,7 +33,7 @@ h1 {
 }
 a {
     text-decoration: none;
-    color: #fff;
+    color: #ffffff;
 }
 
 /* main container area beneath menu */
@@ -55,7 +55,7 @@ main {
 
 /* portfolio styles */
 #interests {
-    border: 4px silver ridge;
+    border: 15px pink;(241, 13, 131) ridge;
     padding: 8px;
 }
 h2, h3 {
