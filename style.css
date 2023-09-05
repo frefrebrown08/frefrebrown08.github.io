@@ -1,6 +1,6 @@
 body {
     background:pink;
-    color: rgb(45, 45, 45);
+    color: #f6006bed;
     padding: 10px;
     font-family:cursive;
 }
@@ -11,16 +11,18 @@ body {
 
 /* navigation menu */
 nav {
+    
     margin-bottom: 20px;
-    background:rgb(234, 91, 115);
-   margin: 0 auto;
+    background:hsl(350, 73%, 65%);
+    margin: 0 auto;
+    margin-bottom: 20px;
     display: flex;
     padding: 10px;
 }
 h1 {
     display: flex;
     align-items: center;
-    color:white;
+    color:hsla(331, 94%, 47%, 0.633);
     flex: 1;
     margin: 0;
 }
@@ -61,3 +63,29 @@ main {
 h2, h3 {
     margin: 0px;
 }
+
+         /* portfolio styles */
+         .content h1 {
+            color: black;
+        }
+
+        #portfolio {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        #portfolio li {
+            background: #fff;
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        #portfolio li:hover {
+            background:pink;
+        }
+
+        #portfolio a {
+            text-decoration: none;
+            color: #454545;
+        }
