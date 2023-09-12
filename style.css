@@ -1,8 +1,8 @@
 body {
     background:pink;
-    color: #f6006bed;
+    color: hsla(334, 89%, 49%, 0.929);
     padding: 10px;
-    font-family:cursive;
+    font-family:'Times New Roman', Times, serif;
 }
 #all-contents {
   max-width: 800px;
@@ -22,7 +22,7 @@ nav {
 h1 {
     display: flex;
     align-items: center;
-    color:hsla(331, 94%, 47%, 0.633);
+    color:#f71080a1;
     flex: 1;
     margin: 0;
 }
