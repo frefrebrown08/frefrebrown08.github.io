@@ -45,7 +45,7 @@ $(function () {
     // example usage: createPlatform(x,y,width,height)
 createPlatform(400, 200, 250, 15);
 createPlatform(350, 100, 200, 15);
-create
+createPlatform(300, 150, 150, 15);
     
     // TODO 2
     // Create collectables
@@ -54,7 +54,7 @@ create
     // example usage: createCollectable(type, x, y, gravity, bounce)
 createCollectable("steve",500, 200, 15, 0.5);
 createCollectable("grace",500, 250);
-
+createCollectable("kennedi", 450, 150, 15);
 
     // TODO 3
     // Create cannons
@@ -63,6 +63,7 @@ createCollectable("grace",500, 250);
     // example usage: createCannon(side, position, delay, width, height)
 createCannon("top", 500, 1000);
 createCannon("left",500, 1000);
+createCannon("bottom", 500, 1000);
 
 
     /////////////////////////////////////////////////
