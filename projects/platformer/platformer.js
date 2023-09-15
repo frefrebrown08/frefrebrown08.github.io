@@ -43,10 +43,10 @@ $(function () {
     // Create platforms
     // You must decide the x position, y position, width, and height of the platforms
     // example usage: createPlatform(x,y,width,height)
-createPlatform(400, 200, 250, 15);
-createPlatform(350, 100, 200, 15);
-createPlatform(300, 150, 150, 15);
-    
+createPlatform(700, 400, 200, 20); // short but wide platform located 500 pixels from the left of the screen and 300 pixels from the top of the screen
+createPlatform(500, 500, 200, 20); // short but wide platform located 500 pixels from the left of the screen and 300 pixels from the top of the screen
+createPlatform(300, 600, 200, 20); // short but wide platform located 500 pixels from the left of the screen and 300 pixels from the top of the screen
+createPlatform(200, 700, 200, 20); // short but wide platform located 500 pixels from the left of the screen and 300 pixels from the top of the screen
     // TODO 2
     // Create collectables
     // You must decide on the collectable type, the x position, the y position, the gravity, and the bounce strength
@@ -62,8 +62,8 @@ createCollectable("kennedi", 450, 150, 15);
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
 createCannon("top", 500, 1000);
-createCannon("left",500, 1000);
-createCannon("bottom", 500, 1000);
+createCannon("left", 400, 1000);
+createCannon("bottom", 600, 1000);
 
 
     /////////////////////////////////////////////////
